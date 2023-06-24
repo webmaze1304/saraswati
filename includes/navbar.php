@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-US" class="no-js">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Kingster &#8211; School, College &amp; University HTML Template SHARED ON THEMELOCK.COM</title>
-
-    <link rel='stylesheet' href='plugins/goodlayers-core/plugins/combine/style.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='plugins/goodlayers-core/include/css/page-builder.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='plugins/revslider/public/assets/css/settings.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/style-core.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='css/kingster-style-custom.css' type='text/css' media='all' />
-
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700%2C400" rel="stylesheet" property="stylesheet" type="text/css" media="all">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CABeeZee%3Aregular%2Citalic&amp;subset=latin%2Clatin-ext%2Cdevanagari&amp;ver=5.0.3' type='text/css' media='all' />
-
-</head>
-
-<body class="home page-template-default page page-id-2039 gdlr-core-body woocommerce-no-js tribe-no-js kingster-body kingster-body-front kingster-full  kingster-with-sticky-navigation  kingster-blockquote-style-1 gdlr-core-link-to-lightbox">
-    <div class="kingster-mobile-header-wrap">
-        <div class="kingster-mobile-header kingster-header-background kingster-style-slide kingster-sticky-mobile-navigation " id="kingster-mobile-header">
+<div class="kingster-mobile-header kingster-header-background kingster-style-slide kingster-sticky-mobile-navigation " id="kingster-mobile-header">
             <div class="kingster-mobile-header-container kingster-container clearfix">
                 <div class="kingster-logo  kingster-item-pdlr">
                     <div class="kingster-logo-inner">
@@ -184,11 +163,12 @@
     </div>
     <div class="kingster-body-outer-wrapper ">
         <div class="kingster-body-wrapper clearfix  kingster-with-frame">
+            <!-- top bar -->
             <div class="kingster-top-bar">
                 <div class="kingster-top-bar-background"></div>
                 <div class="kingster-top-bar-container kingster-container ">
                     <div class="kingster-top-bar-container-inner clearfix">
-                        <div class="kingster-top-bar-left kingster-item-pdlr"><i class="fa fa-envelope-open-o" style="font-size: 15px ;color: #96a2b8 ;margin-right: 8px ;"></i> contact@KUTheme.edu <i class="fa fa-phone" style="font-size: 15px ;color: #96a2b8 ;margin-left: 18px ;margin-right: 6px ;"></i> +1-3435-2356-222</div>
+                        <div class="kingster-top-bar-left kingster-item-pdlr"><i class="fa fa-envelope-open-o" id="i_fd84_0"></i> contact@KUTheme.edu <i class="fa fa-phone" id="i_fd84_1"></i> +1-3435-2356-222</div>
                         <div class="kingster-top-bar-right kingster-item-pdlr">
                             <ul id="kingster-top-bar-menu" class="sf-menu kingster-top-bar-menu kingster-top-bar-right-menu">
                                 <li class="menu-item kingster-normal-menu"><a href="#">Alumni</a></li>
@@ -199,6 +179,7 @@
                     </div>
                 </div>
             </div>
+            <!-- Navbar -->
             <header class="kingster-header-wrap kingster-header-style-plain  kingster-style-menu-right kingster-sticky-navigation kingster-style-fixed" data-navigation-offset="75px">
                 <div class="kingster-header-background"></div>
                 <div class="kingster-header-container  kingster-container">
@@ -211,13 +192,13 @@
                         <div class="kingster-navigation kingster-item-pdlr clearfix ">
                             <div class="kingster-main-menu" id="kingster-main-menu">
                                 <ul id="menu-main-navigation-1" class="sf-menu">
-                                    <li class="menu-item menu-item-home menu-item-has-children kingster-normal-menu"><a href="index.html" class="sf-with-ul-pre">Home</a>
+                                    <li class="menu-item menu-item-home current-menu-item menu-item-has-children kingster-normal-menu"><a href="index.html" class="sf-with-ul-pre">Home</a>
                                         <ul class="sub-menu">
                                             <li class="menu-item menu-item-home" data-size="60"><a href="index.html">Homepage 1</a></li>
                                             <li class="menu-item" data-size="60"><a href="homepage-2.html">Homepage 2</a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item  current-menu-item  menu-item-has-children kingster-normal-menu"><a href="#" class="sf-with-ul-pre">Pages</a>
+                                    <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="#" class="sf-with-ul-pre">Pages</a>
                                         <ul class="sub-menu">
                                             <li class="menu-item" data-size="60"><a href="about-us.html">About KU</a></li>
                                             <li class="menu-item menu-item-has-children" data-size="60"><a href="blog-full-right-sidebar-with-frame.html" class="sf-with-ul-pre">Blog</a>
@@ -322,7 +303,7 @@
                                                     </ul>
                                                 </li>
                                                 <li class="menu-item" data-size="15">
-                                                    <div class="kingster-mega-menu-section-content"><img src="upload/mega-menu-logo.png" style="margin-bottom: 13px;" alt="" /> <span style="font-size: 14px; font-weight: 500;">Academic offerings include 95 majors, 86 minors, and more than 100 in-major specializations</span></div>
+                                                    <div class="kingster-mega-menu-section-content"><img src="upload/mega-menu-logo.png" id="img_fd84_0" alt="" /> <span id="span_fd84_0">Academic offerings include 95 majors, 86 minors, and more than 100 in-major specializations</span></div>
                                                 </li>
                                             </ul>
                                         </div>
@@ -369,306 +350,3 @@
                     </div>
                 </div>
             </header>
-
-
-
-
-
-            <div class="kingster-page-title-wrap  kingster-style-medium kingster-center-align">
-                <div class="kingster-header-transparent-substitute"></div>
-                <div class="kingster-page-title-overlay"></div>
-                <div class="kingster-page-title-container kingster-container">
-                    <div class="kingster-page-title-content kingster-item-pdlr">
-                        <div class="kingster-page-caption">Full Width, With Excerpt & Space</div>
-                        <h1 class="kingster-page-title">Portfolio 5 Columns</h1></div>
-                </div>
-            </div>
-            <div class="kingster-page-wrapper" id="kingster-page-wrapper">
-                <div class="gdlr-core-page-builder-body">
-                    <div class="gdlr-core-pbf-wrapper " style="padding: 50px 15px 0px 15px;">
-                        <div class="gdlr-core-pbf-background-wrap"></div>
-                        <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
-                            <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-pbf-wrapper-full">
-                                <div class="gdlr-core-pbf-element">
-                                    <div class="gdlr-core-portfolio-item gdlr-core-item-pdb clearfix  gdlr-core-portfolio-item-style-grid">
-
-                                        <div class="gdlr-core-portfolio-item-holder gdlr-core-js-2 clearfix" data-layout="fitrows">
-                                            <div class="gdlr-core-item-list  gdlr-core-item-pdlr gdlr-core-column-12 gdlr-core-column-first">
-                                                <div class="gdlr-core-portfolio-grid  gdlr-core-left-align gdlr-core-style-normal">
-                                                    <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-margin-icon">
-                                                        <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover">
-                                                            <a class="gdlr-core-lightgallery gdlr-core-js " href="upload/shutterstock_53600224.jpg" data-lightbox-group="gdlr-core-img-group-1"><img src="upload/shutterstock_53600224-400x377.jpg" width="700" height="660" alt="" /><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js gdlr-core-with-margin"><span class="gdlr-core-image-overlay-content" ><span class="gdlr-core-portfolio-icon-wrap" ><i class="gdlr-core-portfolio-icon arrow_expand" ></i></span></span>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="gdlr-core-portfolio-content-wrap gdlr-core-skin-divider">
-                                                        <h3 class="gdlr-core-portfolio-title gdlr-core-skin-title" style="font-size: 17px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >Charity &#038; Voluntary For Social</a></h3><span class="gdlr-core-portfolio-info gdlr-core-portfolio-info-tag gdlr-core-info-font gdlr-core-skin-caption" style="font-style: normal ;"><a href="#" rel="tag">Charity</a> <span class="gdlr-core-sep">/</span> <a href="#" rel="tag">Social</a></span>
-                                                        <div class="gdlr-core-portfolio-content"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-item-list  gdlr-core-item-pdlr gdlr-core-column-12">
-                                                <div class="gdlr-core-portfolio-grid  gdlr-core-left-align gdlr-core-style-normal">
-                                                    <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-margin-icon">
-                                                        <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover">
-                                                            <a class="gdlr-core-lightgallery gdlr-core-js " href="upload/rawpixel-577480-unsplash-1.jpg" data-lightbox-group="gdlr-core-img-group-1"><img src="upload/rawpixel-577480-unsplash-1-400x377.jpg" width="700" height="660" alt="" /><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js gdlr-core-with-margin"><span class="gdlr-core-image-overlay-content" ><span class="gdlr-core-portfolio-icon-wrap" ><i class="gdlr-core-portfolio-icon arrow_expand" ></i></span></span>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="gdlr-core-portfolio-content-wrap gdlr-core-skin-divider">
-                                                        <h3 class="gdlr-core-portfolio-title gdlr-core-skin-title" style="font-size: 17px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >Medical Breakthrough</a></h3><span class="gdlr-core-portfolio-info gdlr-core-portfolio-info-tag gdlr-core-info-font gdlr-core-skin-caption" style="font-style: normal ;"><a href="#" rel="tag">Medical</a></span>
-                                                        <div class="gdlr-core-portfolio-content"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-item-list  gdlr-core-item-pdlr gdlr-core-column-12">
-                                                <div class="gdlr-core-portfolio-grid  gdlr-core-left-align gdlr-core-style-normal">
-                                                    <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-margin-icon">
-                                                        <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover">
-                                                            <a class="gdlr-core-lightgallery gdlr-core-js " href="upload/pexels-photo.jpg" data-lightbox-group="gdlr-core-img-group-1"><img src="upload/pexels-photo-400x377.jpg" width="700" height="660"  alt="" /><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js gdlr-core-with-margin"><span class="gdlr-core-image-overlay-content" ><span class="gdlr-core-portfolio-icon-wrap" ><i class="gdlr-core-portfolio-icon arrow_expand" ></i></span></span>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="gdlr-core-portfolio-content-wrap gdlr-core-skin-divider">
-                                                        <h3 class="gdlr-core-portfolio-title gdlr-core-skin-title" style="font-size: 17px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >Family Law Advisory</a></h3><span class="gdlr-core-portfolio-info gdlr-core-portfolio-info-tag gdlr-core-info-font gdlr-core-skin-caption" style="font-style: normal ;"><a href="#" rel="tag">Family</a> <span class="gdlr-core-sep">/</span> <a href="#" rel="tag">Law</a></span>
-                                                        <div class="gdlr-core-portfolio-content"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-item-list  gdlr-core-item-pdlr gdlr-core-column-12">
-                                                <div class="gdlr-core-portfolio-grid  gdlr-core-left-align gdlr-core-style-normal">
-                                                    <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-margin-icon">
-                                                        <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover">
-                                                            <a class="gdlr-core-lightgallery gdlr-core-js " href="upload/training-train-lime-barbell-39688.jpg" data-lightbox-group="gdlr-core-img-group-1"><img src="upload/training-train-lime-barbell-39688-400x377.jpg" width="700" height="660"  alt="" /><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js gdlr-core-with-margin"><span class="gdlr-core-image-overlay-content" ><span class="gdlr-core-portfolio-icon-wrap" ><i class="gdlr-core-portfolio-icon arrow_expand" ></i></span></span>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="gdlr-core-portfolio-content-wrap gdlr-core-skin-divider">
-                                                        <h3 class="gdlr-core-portfolio-title gdlr-core-skin-title" style="font-size: 17px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >Free Training For Senior</a></h3><span class="gdlr-core-portfolio-info gdlr-core-portfolio-info-tag gdlr-core-info-font gdlr-core-skin-caption" style="font-style: normal ;"><a href="#" rel="tag">Sport</a></span>
-                                                        <div class="gdlr-core-portfolio-content"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-item-list  gdlr-core-item-pdlr gdlr-core-column-12">
-                                                <div class="gdlr-core-portfolio-grid  gdlr-core-left-align gdlr-core-style-normal">
-                                                    <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-margin-icon">
-                                                        <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover">
-                                                            <a class="gdlr-core-lightgallery gdlr-core-js " href="upload/joshua-fuller-368384-unsplash.jpg" data-lightbox-group="gdlr-core-img-group-1"><img src="upload/joshua-fuller-368384-unsplash-400x377.jpg" width="700" height="660"  alt="" /><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js gdlr-core-with-margin"><span class="gdlr-core-image-overlay-content" ><span class="gdlr-core-portfolio-icon-wrap" ><i class="gdlr-core-portfolio-icon arrow_expand" ></i></span></span>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="gdlr-core-portfolio-content-wrap gdlr-core-skin-divider">
-                                                        <h3 class="gdlr-core-portfolio-title gdlr-core-skin-title" style="font-size: 17px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >Stage Play From Students</a></h3><span class="gdlr-core-portfolio-info gdlr-core-portfolio-info-tag gdlr-core-info-font gdlr-core-skin-caption" style="font-style: normal ;"><a href="#" rel="tag">Acting</a> <span class="gdlr-core-sep">/</span> <a href="#" rel="tag">Drama</a></span>
-                                                        <div class="gdlr-core-portfolio-content"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-item-list  gdlr-core-item-pdlr gdlr-core-column-12 gdlr-core-column-first">
-                                                <div class="gdlr-core-portfolio-grid  gdlr-core-left-align gdlr-core-style-normal">
-                                                    <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-margin-icon">
-                                                        <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover">
-                                                            <a class="gdlr-core-lightgallery gdlr-core-js " href="upload/austin-neill-247047-unsplash.jpg" data-lightbox-group="gdlr-core-img-group-1"><img src="upload/austin-neill-247047-unsplash-400x377.jpg" width="700" height="660"  alt="" /><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js gdlr-core-with-margin"><span class="gdlr-core-image-overlay-content" ><span class="gdlr-core-portfolio-icon-wrap" ><i class="gdlr-core-portfolio-icon arrow_expand" ></i></span></span>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="gdlr-core-portfolio-content-wrap gdlr-core-skin-divider">
-                                                        <h3 class="gdlr-core-portfolio-title gdlr-core-skin-title" style="font-size: 17px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >Concert For Charity</a></h3><span class="gdlr-core-portfolio-info gdlr-core-portfolio-info-tag gdlr-core-info-font gdlr-core-skin-caption" style="font-style: normal ;"><a href="#" rel="tag">Concert</a> <span class="gdlr-core-sep">/</span> <a href="#" rel="tag">Music</a></span>
-                                                        <div class="gdlr-core-portfolio-content"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-item-list  gdlr-core-item-pdlr gdlr-core-column-12">
-                                                <div class="gdlr-core-portfolio-grid  gdlr-core-left-align gdlr-core-style-normal">
-                                                    <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-margin-icon">
-                                                        <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover">
-                                                            <a class="gdlr-core-lightgallery gdlr-core-js " href="upload/shutterstock_218235004.jpg" data-sub-html="Studying" data-lightbox-group="gdlr-core-img-group-1"><img src="upload/shutterstock_218235004-400x377.jpg" width="700" height="660"  alt="" /><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js gdlr-core-with-margin"><span class="gdlr-core-image-overlay-content" ><span class="gdlr-core-portfolio-icon-wrap" ><i class="gdlr-core-portfolio-icon arrow_expand" ></i></span></span>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="gdlr-core-portfolio-content-wrap gdlr-core-skin-divider">
-                                                        <h3 class="gdlr-core-portfolio-title gdlr-core-skin-title" style="font-size: 17px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >Free Tuition From Prof. Smith</a></h3><span class="gdlr-core-portfolio-info gdlr-core-portfolio-info-tag gdlr-core-info-font gdlr-core-skin-caption" style="font-style: normal ;"><a href="#" rel="tag">Study</a> <span class="gdlr-core-sep">/</span> <a href="#" rel="tag">Tuition</a></span>
-                                                        <div class="gdlr-core-portfolio-content"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-item-list  gdlr-core-item-pdlr gdlr-core-column-12">
-                                                <div class="gdlr-core-portfolio-grid  gdlr-core-left-align gdlr-core-style-normal">
-                                                    <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-margin-icon">
-                                                        <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover">
-                                                            <a class="gdlr-core-lightgallery gdlr-core-js " href="upload/shutterstock_361397258.jpg" data-lightbox-group="gdlr-core-img-group-1"><img src="upload/shutterstock_361397258-400x377.jpg" width="700" height="660"  alt="" /><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js gdlr-core-with-margin"><span class="gdlr-core-image-overlay-content" ><span class="gdlr-core-portfolio-icon-wrap" ><i class="gdlr-core-portfolio-icon arrow_expand" ></i></span></span>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="gdlr-core-portfolio-content-wrap gdlr-core-skin-divider">
-                                                        <h3 class="gdlr-core-portfolio-title gdlr-core-skin-title" style="font-size: 17px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >Business Showcase Session</a></h3><span class="gdlr-core-portfolio-info gdlr-core-portfolio-info-tag gdlr-core-info-font gdlr-core-skin-caption" style="font-style: normal ;"><a href="#" rel="tag">Business</a></span>
-                                                        <div class="gdlr-core-portfolio-content"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="gdlr-core-item-list  gdlr-core-item-pdlr gdlr-core-column-12">
-                                                <div class="gdlr-core-portfolio-grid  gdlr-core-left-align gdlr-core-style-normal">
-                                                    <div class="gdlr-core-portfolio-thumbnail gdlr-core-media-image  gdlr-core-style-margin-icon">
-                                                        <div class="gdlr-core-portfolio-thumbnail-image-wrap  gdlr-core-zoom-on-hover">
-                                                            <a class="gdlr-core-lightgallery gdlr-core-js " href="upload/shutterstock_735267403.jpg" data-lightbox-group="gdlr-core-img-group-1"><img src="upload/shutterstock_735267403-400x377.jpg" width="700" height="660"  alt="" /><span class="gdlr-core-image-overlay  gdlr-core-portfolio-overlay gdlr-core-image-overlay-center-icon gdlr-core-js gdlr-core-with-margin"><span class="gdlr-core-image-overlay-content" ><span class="gdlr-core-portfolio-icon-wrap" ><i class="gdlr-core-portfolio-icon arrow_expand" ></i></span></span>
-                                                                </span>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                    <div class="gdlr-core-portfolio-content-wrap gdlr-core-skin-divider">
-                                                        <h3 class="gdlr-core-portfolio-title gdlr-core-skin-title" style="font-size: 17px ;font-weight: 600 ;letter-spacing: 0px ;text-transform: none ;"><a href="#" >Charity Activity in Atlanta</a></h3><span class="gdlr-core-portfolio-info gdlr-core-portfolio-info-tag gdlr-core-info-font gdlr-core-skin-caption" style="font-style: normal ;"><a href="#" rel="tag">Charity</a></span>
-                                                        <div class="gdlr-core-portfolio-content"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="em">
-                <h4>Education Resources</h4>
-                    <ul>
-                        <li><a href="https://en.wikipedia.org/wiki/Education#">Wikipedia</a></li>
-                        <li><a href="https://www.theidioms.com/#title">Theidioms.com</a></li>
-                        <li><a href="https://www.britannica.com/topic/English-language#">English language</a></li>
-                        <li><a href="https://twitter.com/shayari/#">Shayari</a></li>
-                    </ul>
-            </div>
-
-            <footer>            
-                <div class="kingster-footer-wrapper ">
-                    <div class="kingster-footer-container kingster-container clearfix">
-                        <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
-                            <div id="text-2" class="widget widget_text kingster-widget">
-                                <div class="textwidget">
-                                    <p><img src="upload/footer-logo.png" alt="" />
-                                        <br /> <span class="gdlr-core-space-shortcode" style="margin-top: 5px ;"></span>
-                                        <br /> 144,
-                                        <br /> Jalkheri Street,
-                                        <br /> Seattle, WA 98104-2648.</p>
-                                    <p><span style="font-size: 15px; color: #ffffff;">+1-2534-4456-345</span>
-                                        <br /> <span class="gdlr-core-space-shortcode" style="margin-top: -20px ;"></span>
-                                        <br /> <a style="font-size: 15px; color: #ffffff;" href="mailto:admin@kingsteruni.edu">admin@kingsteruni.edu</a></p>
-                                    <div class="gdlr-core-divider-item gdlr-core-divider-item-normal gdlr-core-left-align">
-                                        <div class="gdlr-core-divider-line gdlr-core-skin-divider" style="border-color: #3db166 ;border-bottom-width: 2px ;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
-                            <div id="gdlr-core-custom-menu-widget-2" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
-                                <h3 class="kingster-widget-title">Our Campus</h3><span class="clear"></span>
-                                <div class="menu-our-campus-container">
-                                    <ul id="menu-our-campus" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                        <li class="menu-item"><a href="#">Acedemic</a></li>
-                                        <li class="menu-item"><a href="#">Planning &#038; Administration</a></li>
-                                        <li class="menu-item"><a href="#">Campus Safety</a></li>
-                                        <li class="menu-item"><a href="#">Office of the Chancellor</a></li>
-                                        <li class="menu-item"><a href="#">Facility Services</a></li>
-                                        <li class="menu-item"><a href="#">Human Resources</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
-                            <div id="gdlr-core-custom-menu-widget-3" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
-                                <h3 class="kingster-widget-title">Campus Life</h3><span class="clear"></span>
-                                <div class="menu-campus-life-container">
-                                    <ul id="menu-campus-life" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                        <li class="menu-item"><a href="#">Accessibility</a></li>
-                                        <li class="menu-item"><a href="#">Financial Aid</a></li>
-                                        <li class="menu-item"><a href="#">Food Services</a></li>
-                                        <li class="menu-item"><a href="#">Housing</a></li>
-                                        <li class="menu-item"><a href="#">Information Technologies</a></li>
-                                        <li class="menu-item"><a href="#">Student Life</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="kingster-footer-column kingster-item-pdlr kingster-column-15">
-                            <div id="gdlr-core-custom-menu-widget-4" class="widget widget_gdlr-core-custom-menu-widget kingster-widget">
-                                <h3 class="kingster-widget-title">Academics</h3><span class="clear"></span>
-                                <div class="menu-academics-container">
-                                    <ul id="menu-academics" class="gdlr-core-custom-menu-widget gdlr-core-menu-style-plain">
-                                        <li class="menu-item"><a href="#">Canvas</a></li>
-                                        <li class="menu-item"><a href="#">Catalyst</a></li>
-                                        <li class="menu-item"><a href="#">Library</a></li>
-                                        <li class="menu-item"><a href="#">Time Schedule</a></li>
-                                        <li class="menu-item"><a href="#">Apply For Admissions</a></li>
-                                        <li class="menu-item"><a href="#">Pay My Tuition</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-				<div class="kingster-copyright-wrapper">
-					<div class="kingster-copyright-container kingster-container clearfix">
-						<div class="kingster-copyright-left kingster-item-pdlr">Copyright All Right Reserved 2019, Max Themes</div>
-						<div class="kingster-copyright-right kingster-item-pdlr">
-							<div class="gdlr-core-social-network-item gdlr-core-item-pdb  gdlr-core-none-align" style="padding-bottom: 0px ;">
-								<a href="#" target="_blank" class="gdlr-core-social-network-icon" title="facebook">
-									<i class="fa fa-facebook" ></i>
-								</a>
-								<a href="#" target="_blank" class="gdlr-core-social-network-icon" title="google-plus">
-									<i class="fa fa-google-plus" ></i>
-								</a>
-								<a href="#" target="_blank" class="gdlr-core-social-network-icon" title="linkedin">
-									<i class="fa fa-linkedin" ></i>
-								</a>
-								<a href="#" target="_blank" class="gdlr-core-social-network-icon" title="skype">
-									<i class="fa fa-skype" ></i>
-								</a>
-								<a href="#" target="_blank" class="gdlr-core-social-network-icon" title="twitter">
-									<i class="fa fa-twitter" ></i>
-								</a>
-								<a href="#" target="_blank" class="gdlr-core-social-network-icon" title="instagram">
-									<i class="fa fa-instagram" ></i>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-            </footer>
-        </div>
-    </div>
-
-
-	<script type='text/javascript' src='js/jquery/jquery.js'></script>
-    <script type='text/javascript' src='js/jquery/jquery-migrate.min.js'></script>
-    <script type='text/javascript' src='plugins/goodlayers-core/plugins/combine/script.js'></script>
-    <script type='text/javascript'>
-        var gdlr_core_pbf = {
-            "admin": "",
-            "video": {
-                "width": "640",
-                "height": "360"
-            },
-            "ajax_url": "#"
-        };
-    </script>
-    <script type='text/javascript' src='plugins/goodlayers-core/include/js/page-builder.js'></script>
-    <script type='text/javascript' src='js/jquery/ui/effect.min.js'></script>
-    <script type='text/javascript'>
-        var kingster_script_core = {
-            "home_url": "index.html"
-        };
-    </script>
-    <script type='text/javascript' src='js/plugins.min.js'></script>
-    <script type='text/javascript' src='js/isotope.js'></script>
-</body>
-</html>
