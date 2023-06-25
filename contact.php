@@ -184,9 +184,61 @@
             <?php include_once 'includes/footer.php'; ?>
         </div>
     </div>
+    <script type = "text/javascript">  
+         $(document).ready(function () {
+            $("#contactform").submit(function (event) {
+                var formData = {
+                    name: $("#name").val(),
+                    email: $("#email").val(),
+                    phone: $("#phone").val(),
+                    subject: $("#subject").val(),
+                    message: $("#message").val(),
+                };
+                console.log(formData);
+                $.ajax({
+                    type: "POST",
+                    url: "includes/contact-form.php",
+                    data: formData,
+                    dataType: "json",
+                    encode: true,
+                }).done(function (data) {
+                    console.log(data, "xyz");
+                    if (!data.success) {
+                        $("#success1").html(
+                            '<div class="alert alert-danger">Something went wrong. Please try again later.</div>'
+                        );
 
+                        window.setTimeout(function () {
+                            $(".alert").fadeTo(300, 0).slideUp(300, function () {
+                                $(this).remove();
+                            });
+                        }, 4000);
+                    }
+                    else {
+                        $("#success1").html(
+                            '<div class="alert alert-success">' + data.message + " , We will contact you soon." + "</div>"
+                        );
+                        $("#contactform")[0].reset();
+
+                        window.setTimeout(function () {
+                            $(".alert").fadeTo(300, 0).slideUp(300, function () {
+                                $(this).remove();
+                            });
+                            $('#exampleModal').modal('hide');
+                        }, 4000);
+
+                    }
+
+                });
+
+                event.preventDefault();
+            });
+        });
+
+      </script>
 
 	<?php include_once 'includes/scripts.php'; ?>
+    
      
 </body>
 </html>

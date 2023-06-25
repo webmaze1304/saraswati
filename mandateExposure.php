@@ -17,8 +17,8 @@
                 <div class="kingster-page-title-overlay"></div>
                 <div class="kingster-page-title-container kingster-container">
                     <div class="kingster-page-title-content kingster-item-pdlr">
-                        <div class="kingster-page-caption">Course List</div>
-                        <h1 class="kingster-page-title">Course List 1</h1>
+                        <div class="kingster-page-caption"><strong>Documents</strong></div>
+                        <h1 class="kingster-page-title">Mandatory Disclosure</h1>
                     </div>
                 </div>
             </div>
@@ -30,30 +30,6 @@
                                 <div class="gdlr-core-pbf-wrapper ">
                                     <div class="gdlr-core-pbf-wrapper-content gdlr-core-js ">
                                         <div class="gdlr-core-pbf-wrapper-container clearfix gdlr-core-container">
-                                            <div class="gdlr-core-pbf-element">
-                                                <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"
-                                                    style="padding-bottom: 40px ;">
-                                                    <div class="gdlr-core-title-item-title-wrap clearfix">
-                                                        <h3 class="gdlr-core-title-item-title gdlr-core-skin-title "
-                                                            style="font-size: 20px ;font-weight: 600 ;">School Details
-                                                        </h3>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <table>
-                                                <tbody>
-                                                    <tr>
-                                                        <th width="73">SR. NO.</th>
-                                                        <th width="540">Title</th>
-                                                        <th width="162">Details</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td width="73">9</td>
-                                                        <td width="540">KU2 Hill</td>
-                                                        <td width="162">203</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
                                             <div class="gdlr-core-pbf-element">
                                                 <div class="gdlr-core-title-item gdlr-core-item-pdb clearfix  gdlr-core-left-align gdlr-core-title-item-caption-top gdlr-core-item-pdlr"
                                                     style="padding-bottom: 40px ;">
@@ -73,45 +49,87 @@
                                                         <th width="162">Details</th>
                                                     </tr>
                                                     <tr>
-                                                        <td width="73">9</td>
-                                                        <td width="540">KU2 Hill</td>
+                                                        <td width="73">1.</td>
+                                                        <td width="540">Affiliation</td>
                                                         <td width="162">
-                                                            <p><strong><a href="#">View</a></strong></p>
+                                                            <p><strong><a href="https://spssn.org/public/affiliation">View</a></strong></p>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td width="73">9</td>
-                                                        <td width="540">KU2 Hill</td>
+                                                        <td width="73">2.</td>
+                                                        <td width="540">Building Certificate</td>
                                                         <td width="162">
-                                                            <p><strong><a href="#">View</a></strong></p>
+                                                            <p><strong><a href="https://spssn.org/public/building_certificate">View</a></strong></p>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td width="73">9</td>
-                                                        <td width="540">KU2 Hill</td>
+                                                        <td width="73">3.</td>
+                                                        <td width="540">Calender</td>
                                                         <td width="162">
-                                                            <p><strong><a href="#">View</a></strong></p>
+                                                            <p><strong><a href="https://spssn.org/public/calander">View</a></strong></p>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td width="73">9</td>
-                                                        <td width="540">KU2 Hill</td>
+                                                        <td width="73">4.</td>
+                                                        <td width="540">DSE NOC</td>
                                                         <td width="162">
-                                                            <p><strong><a href="#">View</a></strong></p>
+                                                            <p><strong><a href="https://spssn.org/public/dse_noc">View</a></strong></p>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td width="73">9</td>
-                                                        <td width="540">KU2 Hill</td>
+                                                        <td width="73">5.</td>
+                                                        <td width="540">Fees</td>
                                                         <td width="162">
-                                                            <p><strong><a href="#">View</a></strong></p>
+                                                            <p><strong><a href="https://spssn.org/public/fees">View</a></strong></p>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td width="73">9</td>
-                                                        <td width="540">KU2 Hill</td>
+                                                        <td width="73">6.</td>
+                                                        <td width="540">Fire NOC</td>
                                                         <td width="162">
-                                                            <p><strong><a href="#">View</a></strong></p>
+                                                            <p><strong><a href="https://spssn.org/public/fire_noc">View</a></strong></p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td width="73">7.</td>
+                                                        <td width="540">PTA Members</td>
+                                                        <td width="162">
+                                                            <p><strong><a href="https://spssn.org/public/pta_members">View</a></strong></p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td width="73">8.</td>
+                                                        <td width="540">Recognition</td>
+                                                        <td width="162">
+                                                            <p><strong><a href="https://spssn.org/public/recognition">View</a></strong></p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td width="73">9.</td>
+                                                        <td width="540">Self Declaration</td>
+                                                        <td width="162">
+                                                            <p><strong><a href="https://spssn.org/public/self_declaration">View</a></strong></p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td width="73">10.</td>
+                                                        <td width="540">SMC COMM</td>
+                                                        <td width="162">
+                                                            <p><strong><a href="https://spssn.org/public/smc_comm">View</a></strong></p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td width="73">11.</td>
+                                                        <td width="540">Society Certificate</td>
+                                                        <td width="162">
+                                                            <p><strong><a href="https://spssn.org/public/society_certificate">View</a></strong></p>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td width="73">12.</td>
+                                                        <td width="540">Hygiene and Sanitation</td>
+                                                        <td width="162">
+                                                            <p><strong><a href="https://spssn.org/public/water_hygiene_and_sanitation">View</a></strong></p>
                                                         </td>
                                                     </tr>
                                                 </tbody>
@@ -123,23 +141,9 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="em">
-                    <h4>Education Resources</h4>
-                    <ul>
-                        <li><a href="https://en.wikipedia.org/wiki/Education#">Wikipedia</a></li>
-                        <li><a href="https://www.theidioms.com/#title">Theidioms.com</a></li>
-                        <li><a href="https://www.britannica.com/topic/English-language#">English language</a></li>
-                        <li><a href="https://twitter.com/shayari/#">Shayari</a></li>
-                    </ul>
-                </div>
-
                 <?php include_once 'includes/footer.php'; ?>
             </div>
         </div>
-
-
         <?php include_once 'includes/scripts.php'; ?>
 </body>
-
 </html>
