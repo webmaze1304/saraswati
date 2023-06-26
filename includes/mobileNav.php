@@ -9,7 +9,7 @@
                 <div class="kingster-mobile-menu-right">
                     <div class="kingster-mobile-menu"><a class="kingster-mm-menu-button kingster-mobile-menu-button kingster-mobile-button-hamburger" href="#kingster-mobile-menu"><span></span></a>
                         <div class="kingster-mm-menu-wrap kingster-navigation-font" id="kingster-mobile-menu" data-slide="right">
-                            <ul id="menu-main-navigation" class="m-menu">
+                            <!-- <ul id="menu-main-navigation" class="m-menu">
                                 <li class="menu-item menu-item-home current-menu-item menu-item-has-children"><a href="index.html">Home</a>
                                     <ul class="sub-menu">
                                         <li class="menu-item menu-item-home"><a href="index.html">Homepage 1</a></li>
@@ -141,7 +141,28 @@
                                 </li>
                                 <li class="menu-item"><a href="athletics.html">Athletics</a></li>
                                 <li class="menu-item"><a href="university-life.html">University Life</a></li>
+                            </ul> -->
+                            <ul id="menu-main-navigation-1" class="sf-menu">
+                        <li class="menu-item menu-item-home menu-item-has-children kingster-normal-menu current-menu-item"><a
+                                href="index.php" class="sf-with-ul-pre">Home</a>
+                        </li>
+                        <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="#"
+                                class="sf-with-ul-pre">About</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item" data-size="60"><a href="about-us.php">About Us</a></li>
+                                <li class="menu-item" data-size="60"><a href="ourVision.php">Our Vision</a></li>
                             </ul>
+                        </li>
+                        <li class="menu-item menu-item-has-children kingster-normal-menu"><a href="#"
+                                class="sf-with-ul-pre">Gallery</a>
+                            <ul class="sub-menu">
+                                <li class="menu-item" data-size="60"><a href="photoGallery.php">Photo Gallery</a></li>
+                                <li class="menu-item" data-size="60"><a href="videoGallery.php">Video Gallery</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item kingster-normal-menu"><a href="contact.php">Contact Us</a></li>
+                        <li class="menu-item kingster-normal-menu"><a href="mandateExposure.php">Mandatory Disclosure</a></li>
+                    </ul>
                         </div>
                     </div>
                 </div>
